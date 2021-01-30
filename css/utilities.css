@@ -1,0 +1,227 @@
+/* Start Utilities Framework */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.grid3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 1.25em;
+  margin: 0.625em;
+}
+/* Backgrounds &  Colored Buttons */
+.btn {
+  display: inline-block;
+  border: none;
+  padding: 0.625em 1.875em;
+  color: #fff;
+  background: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+/* Adding the color option after clicking it */
+/* .main .btn {
+  background: var(--main-color);
+}
+.red .btn {
+  background: var(--red-color);
+}
+.blue .btn {
+  background: var(--blue-color);
+}
+.orange .btn {
+  background: var(--orange-color);
+} */
+/* End Adding the color option after clicking it */
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.btn:hover {
+  transform: scale(0.95);
+}
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+/* Start Adding the color option after clicking it */
+.main .bg-primary,
+.main .btn-primary {
+  background: var(--main-color);
+}
+.red .bg-primary,
+.red .btn-primary {
+  background: var(--red-color);
+}
+.blue .bg-primary,
+.blue .btn-primary {
+  background: var(--blue-color);
+}
+.orange .bg-primary,
+.orange .btn-primary {
+  background: var(--orange-color);
+}
+/* End Adding the color option after clicking it */
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+/* End Adding the color option after clicking it */
+.main .bg-dark,
+.main .btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+.red .bg-dark,
+.red .btn-dark {
+  background-color: var(--red-dark-color);
+  color: #fff;
+}
+.blue .bg-dark,
+.blue .btn-dark {
+  background-color: var(--blue-orange-color);
+  color: #fff;
+}
+.orange .bg-dark,
+.orange .btn-dark {
+  background-color: var(--orange-blue-color);
+  color: #fff;
+}
+/* End Adding the color option after clicking it */
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+/* Alert */
+.alert {
+  background-color: var(--ligt-color);
+  font-weight: bold;
+  padding: 0.6em 1em;
+  margin: 0.8em 0;
+}
+.alert i {
+  margin-right: 0.6em;
+}
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
+/* Text Sizes */
+.lead {
+  font-size: 1.25rem;
+}
+.sm {
+  font-size: 1rem;
+}
+.md {
+  font-size: 2rem;
+}
+.lg {
+  font-size: 3rem;
+}
+.xl {
+  font-size: 4rem;
+}
+/* Margins */
+.my-1 {
+  margin: 1em 0;
+}
+.my-2 {
+  margin: 1.5em 0;
+}
+.my-3 {
+  margin: 2em 0;
+}
+.my-4 {
+  margin: 2.5em 0;
+}
+.my-5 {
+  margin: 3em 0;
+}
+.m-1 {
+  margin: 1em;
+}
+.m-2 {
+  margin: 1.5em;
+}
+.m-3 {
+  margin: 2em;
+}
+.m-4 {
+  margin: 2.5em;
+}
+.m-5 {
+  margin: 3em;
+}
+/* Paddings */
+.py-1 {
+  padding: 1em 0;
+}
+.py-2 {
+  padding: 1.5em 0;
+}
+.py-3 {
+  padding: 2em 0;
+}
+.py-4 {
+  padding: 2.5em 0;
+}
+.py-5 {
+  padding: 3em 0;
+}
+.p-1 {
+  padding: 1em;
+}
+.p-2 {
+  padding: 1.5em;
+}
+.p-3 {
+  padding: 2em;
+}
+.p-4 {
+  padding: 2.5em;
+}
+.p-5 {
+  padding: 3em;
+}
+/* End  Utilities Framework */
